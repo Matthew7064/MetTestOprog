@@ -9,11 +9,11 @@ def my_printf(format_string,param):
         if shouldDo:
             if format_string[idx] == '#' and format_string[idx+1] == 'k':
                 print(param,end="")
-                shouldDo=False
+                shouldDo = False
             else:
                 print(format_string[idx].swapcase(),end="")
         else:
-            shouldDo=True
+            shouldDo = True
     print("")
 
 data=sys.stdin.readlines()
