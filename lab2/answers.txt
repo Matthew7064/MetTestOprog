@@ -1,0 +1,10 @@
+mYtEST1 test TESTING1
+testing1test2 MY TEST
+TESTING 2 # WYNIK
+__E # K mATEUSZ
+XXXXXXXXXX test5 YYYYY ZZ A bb
+aBBBBBBBBc test6 AbbbbbbbbC
+bSbSbS test7 SbSbSb
+&^% test8
+021A021 test9 021A021
+LAST test10 TEST
