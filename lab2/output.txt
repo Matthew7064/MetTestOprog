@@ -1,10 +1,10 @@
-totafsdfsf mYtEST1 fdsfsdf
+totafsdfsf mY fdsfsdf
 totafsdMYtEST2 fdsfsdf fdfjs
 jfldjfldk # wynik
 fjdfsfds # k alal
-djfjkldsjf TEST5 jjjjjj fsfjdljfdlsj flj ldfj
+djfjkldsjf TEST jjjjjj fsfjdljfdlsj flj ldfj
 gjjkdsljflds test6 jdlkfjdslf
 fjdslkfjdl TEST_#TEST7 tttttt
 fjdlsjfkl tEST8 oooolll
 rwrewrew 9 fjdslkjfdl
-fjdlskjfldjflj LAST_TEST10 rewrewrew
+fjdlskjfldjflj LAST_ rewrewrew
