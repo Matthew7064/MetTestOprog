@@ -18,7 +18,7 @@ class lab2 {
                     //System.out.print("{number: " + number + ", length: " + length + "}");
                     if(format_string.charAt(i+2+length) == 'k') {
                         for (int j = 0; j < number; j++) {
-                            System.out.print(swapLetterCase(param.charAt(j)));
+                            if(j < param.length()) System.out.print(swapLetterCase(param.charAt(j)));
                         }
                         i = i + 2 + length;
                     } else {
