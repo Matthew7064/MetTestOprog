@@ -1,4 +1,4 @@
-totafsdfsf #k fdsfsdf
+totafsdfsf #.2k fdsfsdf
 MyTest1
 totafsd#k fdsfsdf fdfjs
 myTest2
@@ -6,7 +6,7 @@ jfldjfldk # wynik
 MYTEST3
 fjdfsfds # k alal
 my_TEST4
-djfjkldsjf #k jjjjjj fsfjdljfdlsj flj ldfj
+djfjkldsjf #.4k jjjjjj fsfjdljfdlsj flj ldfj
 test5
 gjjkdsljflds #k jdlkfjdslf
 TEST6
@@ -16,5 +16,5 @@ fjdlsjfkl #k oooolll
 Test8
 rwrewrew #k fjdslkjfdl
 9
-fjdlskjfldjflj #k rewrewrew
+fjdlskjfldjflj #.5k rewrewrew
 last_test10
