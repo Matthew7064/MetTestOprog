@@ -6,16 +6,30 @@ class lab0 {
             if((format_string.charAt(i) == '#') && (format_string.charAt(i+1) == 'k')){
                 //System.out.print(param);
                 for(int j=0;j<param.length();j++) {
-		    System.out.print(swapLetterCase(param.charAt(j)));                
+                    System.out.print(swapLetterCase(param.charAt(j)));
                 }
                 i++;
-            }else{
+            } else if((format_string.charAt(i) == '#') && (format_string.charAt(i+1) == '.')) {
+                String stringNumber = format_string.substring(i+2);
+                try {
+                    int number = Integer.parseInt(stringNumber);
+                    //int length = String.valueOf(number).length();
+                    //if(format_string.charAt(i+1+length) == 'k') {
+                        for(int j=0;j<number;j++) {
+                            System.out.print(swapLetterCase(param.charAt(j)));
+                        }
+                    //}
+                } catch (NumberFormatException e) {
+                    System.out.print(format_string.charAt(i));
+                }
+            }
+            else{
                 System.out.print(format_string.charAt(i));
             }
         }
         System.out.println("");
     }
-    
+
     private static char swapLetterCase(char letter) {
         if(Character.isUpperCase(letter)) {
             return Character.toLowerCase(letter);
@@ -24,7 +38,7 @@ class lab0 {
         }
         return letter;
     }
-    
+
     public static void main(String[] args) throws IOException {
         BufferedReader bufferReader=new BufferedReader(new InputStreamReader(System.in));
         String format_string, param;
